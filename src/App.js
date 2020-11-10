@@ -5,17 +5,25 @@ import Projects from './components/Projects';
 import DesignProjects from './components/DesignProjects';
 import Landing from './components/Landing';
 import NavBar from './components/NavBar';
+import { Element } from 'react-scroll';
 
 function App() {
 	return (
 		<div>
 			<NavBar />
-			<Landing />
-			<About />
-			<Landing />
-			<Projects />
+			<Element id='landing'>
+				<Landing />
+			</Element>
+			<Element id='about'>
+				<About />
+			</Element>
+			<Element id='work'>
+				<Projects />
+			</Element>
 			<DesignProjects />
-			<ContactMe />
+			<Element id='contact'>
+				<ContactMe />
+			</Element>
 		</div>
 	);
 }
