@@ -9,7 +9,7 @@ import { Element } from 'react-scroll';
 
 function App() {
 	return (
-		<div>
+		<main>
 			<NavBar />
 			<Element id='landing'>
 				<Landing />
@@ -24,7 +24,7 @@ function App() {
 			<Element id='contact'>
 				<ContactMe />
 			</Element>
-		</div>
+		</main>
 	);
 }
 

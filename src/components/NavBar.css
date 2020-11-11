@@ -1,24 +1,31 @@
-nav ul {
-	list-style: none;
-}
-
 nav {
-	background-color: white;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100vw;
-	height: 60px;
+	height: 50px;
 	z-index: 1;
-	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-	/* display: flex; */
-	/* justify-content: space-between; */
-	padding: 15px 30px;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li:hover {
+	cursor: pointer;
 }
 
 @media only screen and (min-width: 600px) {
 	nav ul {
+		width: 65%;
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
+		align-content: center;
 	}
 }

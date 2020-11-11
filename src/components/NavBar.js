@@ -4,35 +4,17 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 import './NavBar.css';
 
 function NavBar(props) {
+	// const scrollToTop = () => {
+	// 	scroll.scrollToTop();
+	// };
 	return (
 		<nav>
+			<Link to='landing' spy={true} smooth={true} offset={-70} duration={500}>
+				<div>LOGO</div>
+			</Link>
 			<ul>
-				<Link
-					to='landing'
-					activeClass='active'
-					spy={true}
-					smooth={true}
-					offset={-70}
-					duration={500}>
-					<li>LOGO</li>
-				</Link>
-				<Link
-					activeClass='active'
-					to='about'
-					spy={true}
-					smooth={true}
-					offset={-70}
-					duration={500}>
-					<li>About</li>
-				</Link>
-				<Link
-					activeClass='active'
-					to='experience'
-					spy={true}
-					smooth={true}
-					offset={-70}
-					duration={500}>
-					<li>Experience</li>
+				<Link to='about' spy={true} smooth={true} offset={-70} duration={500}>
+					<li activeClass='active'>About</li>
 				</Link>
 				<Link
 					activeClass='active'
@@ -51,6 +33,15 @@ function NavBar(props) {
 					offset={-70}
 					duration={500}>
 					<li>Contact</li>
+				</Link>{' '}
+				<Link
+					activeClass='active'
+					to='contact'
+					spy={true}
+					smooth={true}
+					offset={-70}
+					duration={500}>
+					<li>RESUME</li>
 				</Link>
 			</ul>
 		</nav>
