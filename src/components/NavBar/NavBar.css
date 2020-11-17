@@ -1,0 +1,129 @@
+.nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 50px;
+	z-index: 1;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+nav ul li:hover {
+	cursor: pointer;
+}
+
+/* nav ul {
+	list-style: none;
+}
+
+*/
+
+/* .nav-bar {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 50px;
+	z-index: 1;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 30px;
+} */
+
+.nav-bar-open {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 50px;
+	z-index: 1;
+	/* display: flex; */
+	/* justify-content: space-between; */
+	/* align-items: center; */
+	padding: 15px 30px;
+}
+
+.nav-bar ul {
+	display: flex;
+	list-style: none;
+	flex-flow: row nowrap;
+	padding: 0px;
+	/* display: none; */
+}
+
+.nav-bar-open ul {
+	display: flex;
+	list-style: none;
+	flex-flow: row nowrap;
+	padding: 0px;
+	/* display: none; */
+}
+
+.nav-bar ul li {
+	padding: 0 10px;
+}
+
+.nav-bar-open li {
+	padding: 0 10px;
+}
+
+@media only screen and (min-width: 600px) {
+	nav ul {
+		width: 400px;
+		display: flex;
+		justify-content: space-between;
+		align-content: center;
+	}
+}
+
+@media (max-width: 800px) {
+	.logo img {
+		max-height: 40px;
+	}
+	.nav-bar {
+		flex-flow: column nowrap;
+		text-align: center;
+	}
+
+	.nav-bar-open {
+		flex-flow: column nowrap;
+		text-align: center;
+	}
+
+	.nav-bar ul {
+		flex-flow: column nowrap;
+		background: white;
+		position: fixed;
+		top: 0;
+		right: 0;
+		height: 100vh;
+		width: 300px;
+		padding-top: 30px;
+		transform: translateX(100%);
+		/* transition: transform 0.3s ease-in-out; */
+	}
+
+	.nav-bar-open ul {
+		flex-flow: column nowrap;
+		background: white;
+		position: fixed;
+		top: 0;
+		right: 0;
+		height: 100vh;
+		width: 75vw;
+		padding-top: 70px;
+		transform: translateX(0);
+		transition: transform 0.3s ease-in-out;
+	}
+	.nav-bar-open ul li {
+		margin: 40px 0;
+	}
+}

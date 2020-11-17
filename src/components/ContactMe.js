@@ -1,7 +1,7 @@
 import React from 'react';
 
 function ContactMe(props) {
-	return <div>CONTACT INFO</div>;
+	return <section>CONTACT INFO</section>;
 }
 
 export default ContactMe;

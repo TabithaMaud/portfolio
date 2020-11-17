@@ -1,7 +1,7 @@
 import React from 'react';
 
 function DesignProjects(props) {
-	return <div>Design Projects</div>;
+	return <section>Design Projects</section>;
 }
 
 export default DesignProjects;

@@ -4,7 +4,7 @@ import ContactMe from './components/ContactMe';
 import Projects from './components/Projects';
 import DesignProjects from './components/DesignProjects';
 import Landing from './components/Landing';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar/NavBar';
 import { Element } from 'react-scroll';
 
 function App() {
