@@ -1,0 +1,32 @@
+.landing h1 {
+	font-family: var(--mainFont);
+	font-weight: 800;
+	font-size: 3.5em;
+	margin: 0px;
+}
+
+.landing {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.landing p {
+	line-height: 1.4;
+	margin-top: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+	.landing {
+		text-align: left;
+	}
+	.landing h1 {
+		font-size: 4.5em;
+	}
+
+	.landing {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+}

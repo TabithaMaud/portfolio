@@ -2,8 +2,13 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--mainFont: 'Playfair Display', serif;
+	--secondFont: 'Open Sans', sans-serif;
+}
+
 body {
-	margin-top: 50px;
+	/* margin-top: 50px; */
 	padding: 20px;
 }
 

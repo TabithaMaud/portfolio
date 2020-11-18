@@ -13,7 +13,7 @@ function NavBar(props) {
 
 	return (
 		<nav className={navbarClass}>
-			<div>
+			<div className='logo'>
 				<Link to='landing' spy={true} smooth={true} offset={-70} duration={500}>
 					LOGO
 				</Link>
