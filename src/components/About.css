@@ -1,0 +1,15 @@
+.skills {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.skills h3 {
+	text-align: center;
+}
+
+.skills ul {
+	list-style-type: circle;
+}

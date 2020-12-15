@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Projects(props) {
-	return <section>SOFTWARE ENGINEERING PROJECTS</section>;
+	return (
+		<section>
+			<h2>Developer Work</h2>
+		</section>
+	);
 }
 
 export default Projects;
