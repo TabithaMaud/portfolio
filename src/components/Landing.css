@@ -48,11 +48,6 @@
 		transform: translateY(0);
 	}
 }
-/* p {
-	line-height: 1.4;
-	margin-top: 0px;
-	font-weight: 300;
-} */
 
 @media only screen and (min-width: 600px) {
 	.landing p {

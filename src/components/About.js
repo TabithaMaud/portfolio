@@ -24,14 +24,15 @@ function About(props) {
 						<li>Node.js</li>
 						<li>MongoDB</li>
 						<li>Mongoose</li>
-						<li>SQL</li>
 						<li>PostgresSQL</li>
 						<li>Postman</li>
 						<li>Git</li>
+						<li>Python</li>
+						<li>Handlebars</li>
 					</ul>{' '}
 				</div>
 				<div>
-					<h3>Design</h3>
+					<h3>Design Expertise</h3>
 					<ul>
 						<li>Sketch</li>
 						<li>InVision</li>
