@@ -12,6 +12,42 @@
 	text-align: center;
 }
 
+.landing div {
+	display: flex;
+	justify-content: center;
+}
+
+.arrow-stage {
+	margin-top: 50px;
+	font-size: 2em;
+}
+.fa-arrow-down {
+	align-self: flex-end;
+	animation-duration: 1.25s;
+	animation-iteration-count: infinite;
+	margin: 0 auto 0 auto;
+	transform-origin: bottom;
+}
+
+.fa-arrow-down:hover {
+	cursor: pointer;
+}
+
+.bounce-1 {
+	animation-name: bounce-1;
+	animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-5px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
 /* p {
 	line-height: 1.4;
 	margin-top: 0px;

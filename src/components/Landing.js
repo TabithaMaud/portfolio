@@ -1,5 +1,6 @@
 import React from 'react';
 import './Landing.css';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 function Landing(props) {
 	return (
@@ -11,6 +12,17 @@ function Landing(props) {
 				satisfy its practical purpose but also to maximize the user experience
 				it’s driving.
 			</p>
+			<div>
+				<Link
+					to='about'
+					className='arrow-stage'
+					spy={true}
+					smooth={true}
+					offset={-70}
+					duration={500}>
+					<i className='fa fa-arrow-down bounce-1'></i>
+				</Link>
+			</div>
 		</section>
 	);
 }

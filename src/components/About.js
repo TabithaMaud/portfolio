@@ -14,7 +14,7 @@ function About(props) {
 			</p>
 			<div className='skills'>
 				<div>
-					<h3>Software Engineer</h3>
+					<h3>Software Expertise</h3>
 					<ul>
 						<li>HTML</li>
 						<li>CSS</li>
