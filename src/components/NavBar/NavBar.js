@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import HamburgerMenu from './HamburgerMenu';
 import logo from '../../images/logo.png';
-
 import './NavBar.css';
 
-function NavBar(props) {
+function NavBar({ showResume, openResume }) {
 	const [open, setOpen] = useState(false);
 	const [navbarClass, setNavbarClass] = useState('nav-bar');
 
@@ -45,7 +44,9 @@ function NavBar(props) {
 					</Link>
 				</li>
 				<li>
-					<button>RESUME</button>
+					<button className='open-resume' onClick={showResume}>
+						RESUME
+					</button>
 				</li>
 			</ul>
 			<HamburgerMenu

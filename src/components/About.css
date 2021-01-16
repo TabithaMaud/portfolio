@@ -21,6 +21,12 @@
 	width: 100%;
 }
 
+.line-break {
+	height: 1px;
+	margin-top: 80px;
+	background-color: black;
+}
+
 @media only screen and (min-width: 600px) {
 	.skills {
 		display: flex;

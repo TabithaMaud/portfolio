@@ -50,6 +50,7 @@ function About(props) {
 					</ul>
 				</div>
 			</div>
+			<div className='line-break'></div>
 		</section>
 	);
 }
