@@ -1,17 +1,23 @@
 import React from 'react';
 import './About.css';
+import headshot from '../images/headshot.jpg';
 
 function About(props) {
 	return (
 		<section className='about'>
-			<h2>About</h2>
-			<p>
-				My background in graphic design led me to discover my passion for user
-				focused software engineering. My education in UX design shapes how I
-				approach coding and helps me achieve the best functionality possible for
-				the given task. I am a fullstack software engineer with a strong passion
-				for frontend work.
-			</p>
+			<div className='top'>
+				<img src={headshot} alt='Tabitha Perry'></img>
+				<div>
+					<h2>About</h2>
+					<p>
+						Through my background in graphic design I discovered my passion for
+						user focused software engineering. My education in UX design shapes
+						how I approach coding and helps me achieve the best functionality
+						possible for the given task. I am a fullstack software engineer with
+						a strong passion for frontend work.
+					</p>
+				</div>
+			</div>
 			<div className='skills'>
 				<div>
 					<h3>Software Expertise</h3>

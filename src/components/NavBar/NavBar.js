@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import HamburgerMenu from './HamburgerMenu';
+import logo from '../../images/logo.png';
 
 import './NavBar.css';
 
 function NavBar(props) {
-	// const scrollToTop = () => {
-	// 	scroll.scrollToTop();
-	// };
 	const [open, setOpen] = useState(false);
 	const [navbarClass, setNavbarClass] = useState('nav-bar');
 
@@ -15,7 +13,7 @@ function NavBar(props) {
 		<nav className={navbarClass}>
 			<div className='logo'>
 				<Link to='landing' spy={true} smooth={true} offset={-70} duration={500}>
-					LOGO
+					<img src={logo} alt='logo'></img>
 				</Link>
 			</div>
 			<ul>
