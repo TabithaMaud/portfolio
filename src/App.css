@@ -40,4 +40,9 @@ p {
 		max-width: 800px;
 		margin: 0 auto;
 	}
+
+	.about {
+		height: 700px;
+		min-height: 700px;
+	}
 }

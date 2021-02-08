@@ -4,7 +4,7 @@ import HamburgerMenu from './HamburgerMenu';
 import logo from '../../images/logo.png';
 import './NavBar.css';
 
-function NavBar({ showResume, openResume }) {
+function NavBar() {
 	const [open, setOpen] = useState(false);
 	const [navbarClass, setNavbarClass] = useState('nav-bar');
 
@@ -44,9 +44,9 @@ function NavBar({ showResume, openResume }) {
 					</Link>
 				</li>
 				<li>
-					<button className='open-resume' onClick={showResume}>
+					<a href='/resume.pdf' target='_blank'>
 						RESUME
-					</button>
+					</a>
 				</li>
 			</ul>
 			<HamburgerMenu

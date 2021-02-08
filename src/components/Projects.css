@@ -34,7 +34,20 @@
 	margin-bottom: 10px;
 }
 
+.project-links a {
+	color: black;
+}
+
 @media only screen and (min-width: 600px) {
+	svg {
+		transition: 0.3s;
+	}
+
+	svg:hover {
+		transform: translate(0, -5px);
+		cursor: pointer;
+	}
+
 	.project {
 		display: grid;
 		grid-template-columns: 1fr 2.5fr;
@@ -56,10 +69,12 @@
 	.description {
 		margin-top: 10px;
 		text-align: left;
-		padding-left: 15px;
+		padding-left: 30px;
 	}
 	.project-links {
-		margin-top: 20px;
+		margin-top: 15px;
 		justify-content: start;
+		margin-bottom: 23px;
+		margin-left: 10px;
 	}
 }

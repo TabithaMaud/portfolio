@@ -5,13 +5,13 @@ import Projects from './Projects';
 import DesignProjects from './DesignProjects';
 import Landing from './Landing';
 import { Element } from 'react-scroll';
+import NavBar from './NavBar/NavBar';
 
 function Home(props) {
 	return (
 		<div>
-			{/* <ResumeModal showResume={showResume} openResume={openResume} /> */}
-			{/* <NavBar showResume={showResume} openResume={openResume} /> */}
-			{/* <NavBar /> */}
+			<NavBar />
+
 			<Element id='landing'>
 				<Landing />
 			</Element>
