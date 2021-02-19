@@ -1,0 +1,66 @@
+.landing h1 {
+	font-family: var(--mainFont);
+	font-weight: 800;
+	font-size: 3.5em;
+	margin: 0px;
+}
+
+.landing {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	min-height: 100vh;
+}
+
+.landing div {
+	display: flex;
+	justify-content: center;
+}
+
+.arrow-stage {
+	margin-top: 50px;
+	font-size: 2em;
+}
+.fa-arrow-down {
+	align-self: flex-end;
+	animation-duration: 1.25s;
+	animation-iteration-count: infinite;
+	margin: 0 auto 0 auto;
+	transform-origin: bottom;
+}
+
+.fa-arrow-down:hover {
+	cursor: pointer;
+}
+
+.bounce-1 {
+	animation-name: bounce-1;
+	animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-5px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.landing p {
+		text-align: left;
+	}
+	.landing h1 {
+		font-size: 4.5em;
+	}
+
+	.landing {
+		text-align: left;
+		max-width: 560px;
+		margin: 0 auto;
+	}
+}

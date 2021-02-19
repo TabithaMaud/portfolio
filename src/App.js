@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import { Route } from 'react-router-dom';
+import Resume from './components/Resume';
+import { Table } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<main>
+			<Route path='/' exact component={Home} />
+			<Route path='/resume.pdf' exact component={Resume} />
+		</main>
+	);
 }
 
 export default App;

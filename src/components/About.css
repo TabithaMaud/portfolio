@@ -1,0 +1,62 @@
+.skills {
+	margin: 0 auto;
+}
+
+.skills ul {
+	list-style-type: circle;
+	margin: 0;
+	padding: 0;
+	list-style-position: inside;
+	display: grid;
+	grid-template-columns: 150px 150px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.skills div h3 {
+	font-size: 24px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.about img {
+	width: 100%;
+}
+
+.line-break {
+	height: 1px;
+	margin-top: 80px;
+	background-color: black;
+}
+
+@media only screen and (min-width: 600px) {
+	.skills {
+		display: flex;
+		margin: 0;
+		/* justify-content: space-between; */
+	}
+	.skills div {
+		margin: 0 35px 0 0;
+	}
+	.top {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		margin-top: -40px;
+		margin-bottom: 20px;
+	}
+
+	.top div h2 {
+		margin-bottom: 10px;
+	}
+
+	.top div h2,
+	.top div p {
+		text-align: left;
+		padding-left: 25px;
+		margin-top: 0;
+	}
+}
