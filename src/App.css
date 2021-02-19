@@ -5,12 +5,12 @@
 :root {
 	--mainFont: 'Playfair Display', serif;
 	--secondFont: 'Open Sans', sans-serif;
+	--orangeMain: #fcb332;
 }
 
 body {
 	padding: 0 25px;
 }
-
 .active {
 	border-bottom: 1px solid black;
 }
@@ -19,18 +19,23 @@ section {
 	min-height: 100vh;
 }
 
-h2 {
+section h2 {
 	font-family: var(--mainFont);
-	font-size: 2.5rem;
 	text-align: center;
 	margin-bottom: 0;
+	font-weight: 700;
+	font-size: 2.5rem;
 }
 
-p {
+section p {
 	text-align: center;
 	line-height: 1.4;
 	margin-top: 0px;
 	font-weight: 300;
+}
+
+.arrow-stage {
+	color: var(--orangeMain);
 }
 
 @media only screen and (min-width: 600px) {

@@ -2,6 +2,8 @@ import './App.css';
 import Home from './components/Home';
 import { Route } from 'react-router-dom';
 import Resume from './components/Resume';
+import { Table } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
 	return (

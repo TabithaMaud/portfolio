@@ -23,16 +23,21 @@ function Projects(props) {
 				<div className='project-links'>
 					<a
 						href='https://github.com/TabithaMaud/project-movie-app'
-						target='_blank'>
+						target='_blank'
+						rel='noreferrer'>
 						<Github size={24} />
 					</a>
 
-					<a href='https://calm-plateau-32961.herokuapp.com/' target='_blank'>
+					<a
+						href='https://calm-plateau-32961.herokuapp.com/'
+						target='_blank'
+						rel='noreferrer'>
 						<BoxArrowUpRight size={22} />
 					</a>
 					<a
 						href='https://www.linkedin.com/pulse/my-first-react-app-movie-creds-tabitha-perry/'
-						target='_blank'>
+						target='_blank'
+						rel='noreferrer'>
 						<ThreeDots size={24} />
 					</a>
 				</div>
@@ -54,12 +59,14 @@ function Projects(props) {
 				<div className='project-links'>
 					<a
 						href='https://github.com/My-Power-STN39M-Hopefully'
-						target='_blank'>
+						target='_blank'
+						rel='noreferrer'>
 						<Github size={24} />
 					</a>
 					<a
 						href='https://www.linkedin.com/pulse/goodegg-police-accountability-app-tabitha-perry/'
-						target='_blank'>
+						target='_blank'
+						rel='noreferrer'>
 						<ThreeDots size={24} />
 					</a>
 				</div>
@@ -74,10 +81,16 @@ function Projects(props) {
 				<h3>Simon Says</h3>
 				<p className='tech-list'>HTML / JavaScript / CSS / Local Storage</p>
 				<div className='project-links'>
-					<a href='https://github.com/TabithaMaud/simon-says' target='_blank'>
+					<a
+						href='https://github.com/TabithaMaud/simon-says'
+						target='_blank'
+						rel='noreferrer'>
 						<Github size={24} />
 					</a>
-					<a href='https://tabithamaud.github.io/simon-says/' target='_blank'>
+					<a
+						href='https://tabithamaud.github.io/simon-says/'
+						target='_blank'
+						rel='noreferrer'>
 						<BoxArrowUpRight size={22} />
 					</a>
 					{/* <ThreeDots size={24} /> */}
