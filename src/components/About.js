@@ -1,12 +1,13 @@
 import React from 'react';
 import './About.css';
-import headshot from '../images/headshot.jpg';
+// import headshot from '../images/headshot.jpg';
+import photo from '../images/photo.jpg';
 
 function About(props) {
 	return (
 		<section className='about'>
 			<div className='top'>
-				<img src={headshot} alt='Tabitha Perry'></img>
+				<img src={photo} alt='Tabitha Perry'></img>
 				<div>
 					<h2>About</h2>
 					<p>
@@ -47,6 +48,27 @@ function About(props) {
 						<li>Illustrator</li>
 						<li>Lightroom</li>
 						<li>AfterEffects</li>
+					</ul>
+				</div>
+				<div className='edu'>
+					<h3>Education</h3>
+					<ul className='education'>
+						<li>
+							<p>GENERAL ASSEMBLY / BOSTON / 2021</p>
+							<p>Certificate - Python Programming </p>
+						</li>
+						<li>
+							<p>GENERAL ASSEMBLY / BOSTON / 2020 </p>
+							<p>Certificate - Software Engineering Immersive</p>
+						</li>
+						<li>
+							<p>CITY COLLEGE / SAN DIEGO / 2019</p>
+							<p>AAS - Graphic Design</p>
+						</li>
+						<li>
+							<p>MassArt / BOSTON / 2010 </p>
+							<p> BFA - Communication Design </p>
+						</li>
 					</ul>
 				</div>
 			</div>

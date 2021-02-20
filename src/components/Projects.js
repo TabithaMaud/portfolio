@@ -43,7 +43,7 @@ function Projects(props) {
 				</div>
 				<p className='description'>
 					Movie Creds is an app that focuses on one incredibly common question,
-					what else was an actor in?
+					what else were they in?
 				</p>
 			</div>
 			<div className='project'>

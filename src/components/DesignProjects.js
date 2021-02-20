@@ -21,9 +21,59 @@ import activityTracker6 from '../images/design-images/activity-tracker/page6.jpg
 import activityTracker7 from '../images/design-images/activity-tracker/page7.jpg';
 import activityTracker8 from '../images/design-images/activity-tracker/page8.jpg';
 
+import pizza1 from '../images/design-images/pizzeria-luigi/pizza1.jpg';
+import pizza2 from '../images/design-images/pizzeria-luigi/pizza2.jpg';
+import pizza3 from '../images/design-images/pizzeria-luigi/pizza3.jpeg';
+import pizza4 from '../images/design-images/pizzeria-luigi/pizza4.png';
+import pizza5 from '../images/design-images/pizzeria-luigi/pizza5.png';
+import pizza6 from '../images/design-images/pizzeria-luigi/pizza6.png';
+import pizza7 from '../images/design-images/pizzeria-luigi/pizza7.png';
+import pizza8 from '../images/design-images/pizzeria-luigi/pizza8.png';
+import pizza9 from '../images/design-images/pizzeria-luigi/pizza9.png';
+import pizza10 from '../images/design-images/pizzeria-luigi/pizza10.png';
+
 import './DesignProjects.css';
 
 function DesignProjects(props) {
+	const pizzas = [
+		pizza1,
+		pizza2,
+		pizza3,
+		pizza4,
+		pizza5,
+		pizza6,
+		pizza7,
+		pizza8,
+		pizza9,
+		pizza10,
+	];
+
+	const activityTrackers = [
+		activityTracker1,
+		activityTracker2,
+		activityTracker3,
+		activityTracker4,
+		activityTracker5,
+		activityTracker6,
+		activityTracker7,
+		activityTracker8,
+	];
+
+	const pigments = [
+		pigment1,
+		pigment2,
+		pigment3,
+		pigment3,
+		pigment4,
+		pigment5,
+		pigment6,
+		pigment7,
+		pigment8,
+		pigment9,
+		pigment10,
+		pigment11,
+	];
+
 	return (
 		<section className='design-work'>
 			<h2>Design Work</h2>
@@ -33,73 +83,43 @@ function DesignProjects(props) {
 					InVision / Sketch / Photoshop / Indesign / Illustrator
 				</p>
 				<Carousel interval={null}>
-					<Carousel.Item>
-						<img className='d-block' src={pigment1} alt='First slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={pigment2} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={pigment3} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={pigment4} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={pigment5} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={pigment6} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={pigment7} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={pigment8} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={pigment9} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={pigment10} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={pigment11} alt='Third slide' />
-					</Carousel.Item>
+					{pigments.map((image, index) => {
+						return (
+							<Carousel.Item>
+								<img className='d-block' src={image} alt={`${index} slide`} />
+							</Carousel.Item>
+						);
+					})}
 				</Carousel>
 			</div>
 			<div className='design-project activity-tracker'>
 				<h3>Activity Tracker</h3>
-				<p className='tech-list'>InVision / Sketch / Photoshop / Indesign</p>
+				<p className='tech-list'>
+					InVision / Sketch / Photoshop / Indesign / Illustrator
+				</p>
 				<Carousel interval={null}>
-					<Carousel.Item>
-						<img className='d-block' src={activityTracker1} alt='First slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={activityTracker2} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={activityTracker3} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={activityTracker4} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={activityTracker5} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={activityTracker6} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className='d-block' src={activityTracker7} alt='Third slide' />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img
-							className='d-block w-100'
-							src={activityTracker8}
-							alt='Third slide'
-						/>
-					</Carousel.Item>
+					{activityTrackers.map((image) => {
+						return (
+							<Carousel.Item>
+								<img className='d-block' src={image} alt='First slide' />
+							</Carousel.Item>
+						);
+					})}
+				</Carousel>
+			</div>
+			<div className='design-project pizza'>
+				<h3>Pizzeria Luigi</h3>
+				<p className='tech-list'>
+					InVision / Sketch / Photoshop / Indesign / Illustrator
+				</p>
+				<Carousel interval={null}>
+					{pizzas.map((image) => {
+						return (
+							<Carousel.Item>
+								<img className='d-block' src={image} alt='First slide' />
+							</Carousel.Item>
+						);
+					})}
 				</Carousel>
 			</div>
 		</section>
