@@ -44,7 +44,7 @@ function NavBar() {
 					</Link>
 				</li>
 				<li>
-					<a href='/resume.pdf' target='_blank'>
+					<a className='button resume' href='/resume.pdf' target='_blank'>
 						RESUME
 					</a>
 				</li>

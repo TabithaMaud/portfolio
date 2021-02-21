@@ -12,7 +12,12 @@ function Landing(props) {
 				satisfy its practical purpose but also to maximize the user experience
 				it’s driving.
 			</p>
-			<button>Contact Me</button>
+			{/* <p>
+				A Software Engineer based in Boston, MA with a background in design.
+			</p> */}
+			<Link to='contact' spy={true} smooth={true} offset={-70} duration={500}>
+				<button>Contact Me</button>
+			</Link>
 			<div>
 				<Link
 					to='about'

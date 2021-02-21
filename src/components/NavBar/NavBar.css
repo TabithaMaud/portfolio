@@ -83,6 +83,11 @@ nav ul li:hover {
 		justify-content: space-between;
 		align-content: center;
 	}
+	.button {
+		border: 1px solid black;
+		border-radius: 5px;
+		padding: 10px 17px;
+	}
 }
 
 @media (max-width: 800px) {

@@ -122,6 +122,7 @@ function DesignProjects(props) {
 					})}
 				</Carousel>
 			</div>
+			<div className='line-break'></div>
 		</section>
 	);
 }

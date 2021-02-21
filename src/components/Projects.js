@@ -32,13 +32,15 @@ function Projects(props) {
 						href='https://calm-plateau-32961.herokuapp.com/'
 						target='_blank'
 						rel='noreferrer'>
-						<BoxArrowUpRight size={22} />
+						live app
+						{/* <BoxArrowUpRight size={20} /> */}
 					</a>
 					<a
 						href='https://www.linkedin.com/pulse/my-first-react-app-movie-creds-tabitha-perry/'
 						target='_blank'
 						rel='noreferrer'>
-						<ThreeDots size={24} />
+						read more
+						{/* <ThreeDots size={24}  /> */}
 					</a>
 				</div>
 				<p className='description'>
@@ -67,7 +69,8 @@ function Projects(props) {
 						href='https://www.linkedin.com/pulse/goodegg-police-accountability-app-tabitha-perry/'
 						target='_blank'
 						rel='noreferrer'>
-						<ThreeDots size={24} />
+						read more
+						{/* <ThreeDots size={24} /> */}
 					</a>
 				</div>
 				<p className='description'>
@@ -91,9 +94,9 @@ function Projects(props) {
 						href='https://tabithamaud.github.io/simon-says/'
 						target='_blank'
 						rel='noreferrer'>
-						<BoxArrowUpRight size={22} />
+						live app
+						{/* <BoxArrowUpRight size={20} /> */}
 					</a>
-					{/* <ThreeDots size={24} /> */}
 				</div>
 				<p className='description'>
 					Simon Says Pick A Color is a game for players to test their memory

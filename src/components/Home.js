@@ -9,9 +9,8 @@ import NavBar from './NavBar/NavBar';
 
 function Home(props) {
 	return (
-		<div>
+		<div className='home'>
 			<NavBar />
-
 			<Element id='landing'>
 				<Landing />
 			</Element>
