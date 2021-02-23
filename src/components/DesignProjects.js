@@ -63,7 +63,6 @@ function DesignProjects(props) {
 		pigment1,
 		pigment2,
 		pigment3,
-		pigment3,
 		pigment4,
 		pigment5,
 		pigment6,

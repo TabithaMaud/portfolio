@@ -3,7 +3,7 @@ import simon from '../images/simon.jpg';
 import goodEgg from '../images/good-egg.jpg';
 import movieCreds from '../images/movie-creds.jpg';
 import './Projects.css';
-import { Github, ThreeDots, BoxArrowUpRight } from 'react-bootstrap-icons';
+import { Github } from 'react-bootstrap-icons';
 
 function Projects(props) {
 	return (

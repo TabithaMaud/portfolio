@@ -4,7 +4,7 @@ import './ContactMe.css';
 function ContactMe(props) {
 	return (
 		<section className='contact-section'>
-			<h2>Drop me a line</h2>
+			<h2>Drop me a line.</h2>
 			<p>
 				Currently I'm looking for new opportunities, my inbox is always open.
 				Whether you have an opportunity, question or just want to say hi.

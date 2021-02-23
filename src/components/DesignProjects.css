@@ -61,19 +61,24 @@
 	.activity-tracker div div .carousel-item img {
 		width: auto;
 		height: 75vh;
-		margin: 0 auto;
+		/* max-height: 500px; */
+		margin-left: 50%;
+		transform: translateX(-50%);
 	}
 
 	.pizza div div .carousel-item img {
 		width: auto;
 		height: 70vh;
-		margin: 0 auto;
+		/* max-height: 500px; */
+		margin-left: 50%;
+		transform: translateX(-50%);
 	}
 
 	.pigment div div .carousel-item img {
 		width: auto;
 		height: 45vh;
-		margin: 0 auto;
+		margin-left: 50%;
+		transform: translateX(-50%);
 	}
 	.carousel-control-next-icon {
 		right: -50px;
@@ -86,6 +91,7 @@
 
 @media (min-width: 1200px) {
 	.pigment div div .carousel-item img {
-		height: 65vh;
+		height: 55vh;
+		/* max-height: 450px; */
 	}
 }

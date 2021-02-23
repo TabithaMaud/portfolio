@@ -1,0 +1,14 @@
+.info-tab {
+	position: fixed;
+	z-index: 1;
+	left: -5px;
+	bottom: 30px;
+	width: 70px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
