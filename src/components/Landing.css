@@ -20,11 +20,15 @@
 }
 
 .landing button {
-	background-color: white;
-	border: 1px solid black;
+	background-color: #d0debb;
+	border: none;
 	border-radius: 5px;
 	height: 45px;
-	width: 120px;
+	width: 200px;
+}
+
+.landing button:hover {
+	background-color: #c0cdaa;
 }
 
 .arrow-stage {

@@ -6,6 +6,9 @@
 	--mainFont: 'Playfair Display', serif;
 	--secondFont: 'Open Sans', sans-serif;
 	--orangeMain: #fcb332;
+	--greenMainLight: #d0debb;
+	--greenMainDark: #c0cdaa;
+	--darkBlueMain: #141b4d;
 }
 
 body {

@@ -15,15 +15,17 @@
 }
 
 .button.email {
-	width: 120px;
+	width: 200px;
 	height: 45px;
 	margin: 50px auto;
-	border: 1px solid black;
+	border: none;
 	border-radius: 5px;
 	padding-top: 8px;
-	color: black;
+	background-color: var(--greenMainLight);
+	color: var(--darkBlueMain);
 }
 
 .button.email:hover {
 	text-decoration: none;
+	background-color: var(--greenMainDark);
 }
