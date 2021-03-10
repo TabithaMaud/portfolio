@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import photo from '../images/photo.jpg';
+import photo from '../images/photo.jpeg';
 
 function About(props) {
 	return (
@@ -11,16 +11,18 @@ function About(props) {
 					<h2>About</h2>
 
 					<p>
-						My education in design shapes how I approach coding and helps me
-						achieve the best functionality possible for the given task. I am a
-						fullstack software engineer with a strong passion for user focused
-						software engineering.
+						My education in design shapes how I approach coding and achieve the
+						best functionality possible for the given task. I am a fullstack
+						software engineer with a strong passion for user focused software
+						engineering.
 					</p>
 				</div>
 			</div>
 			<div className='skills'>
 				<div>
-					<h3>Software Expertise</h3>
+					<h3>
+						<span>Software</span> Expertise
+					</h3>
 					<ul>
 						<li>HTML</li>
 						<li>CSS</li>
@@ -38,7 +40,9 @@ function About(props) {
 					</ul>{' '}
 				</div>
 				<div>
-					<h3>Design Expertise</h3>
+					<h3>
+						<span>Design</span> Expertise
+					</h3>
 					<ul>
 						<li>Sketch</li>
 						<li>InVision</li>

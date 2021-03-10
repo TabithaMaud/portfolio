@@ -47,9 +47,9 @@ section p {
 	color: var(--darkBlueMain);
 }
 
-.home > div {
+/* .home > div {
 	margin-top: 20px;
-}
+} */
 
 @media only screen and (min-width: 600px) {
 	section {
