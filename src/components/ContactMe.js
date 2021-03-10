@@ -10,7 +10,7 @@ function ContactMe(props) {
 				Whether you have an opportunity, question or just want to say hi.
 			</p>
 			<a className='button email' href='mailto:tabitha.m.@gmail.com'>
-				contact me
+				Contact Me
 			</a>
 		</section>
 	);

@@ -18,17 +18,19 @@
 
 .design-project h3 {
 	font-size: 24px;
+	font-weight: 300;
 }
 
 .design-work h2 {
 	margin: 70px;
+	margin-bottom: 40px;
 }
 
 .carousel-indicators li {
 	width: 10px !important;
 	height: 10px !important;
 	border-radius: 100%;
-	background-color: black !important;
+	background-color: rgba(0, 0, 0, 0.3) !important;
 	margin-top: 10px;
 	margin-bottom: -100px;
 }

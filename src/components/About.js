@@ -16,13 +16,6 @@ function About(props) {
 						fullstack software engineer with a strong passion for user focused
 						software engineering.
 					</p>
-					{/* <p>
-						Through my background in graphic design I discovered my passion for
-						user focused software engineering. My education in UX design shapes
-						how I approach coding and helps me achieve the best functionality
-						possible for the given task. I am a fullstack software engineer with
-						a strong passion for frontend work.
-					</p> */}
 				</div>
 			</div>
 			<div className='skills'>

@@ -10,8 +10,7 @@
 .project h3 {
 	margin-bottom: 5px;
 	font-size: 24px;
-	font-weight: 700;
-	/* margin-top: 10px; */
+	font-weight: 300;
 }
 
 .tech-list {
@@ -22,7 +21,8 @@
 }
 
 .work h2 {
-	margin-bottom: 50px;
+	font-size: 40px;
+	margin-bottom: 20px;
 }
 
 .project-links {
@@ -40,6 +40,12 @@
 	padding: 0 7px;
 	font-size: 12px;
 	font-weight: 600;
+}
+
+.project-links a:hover {
+	color: var(--greenMainLight);
+	border: 1px solid var(--greenMainLight);
+	text-decoration: none;
 }
 .project-links a:first-child {
 	margin-left: 20px;

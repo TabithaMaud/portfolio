@@ -4,7 +4,6 @@
 	justify-content: center;
 	text-align: center;
 	min-height: 100vh;
-	background-color: FCFCFC;
 }
 
 .landing div {
@@ -14,9 +13,14 @@
 
 .landing h1 {
 	font-family: var(--mainFont);
-	font-weight: 800;
-	font-size: 3.5em;
-	margin: 0px;
+	font-weight: 300;
+	font-size: 60px;
+	margin: 0 0 20px 0;
+}
+
+.landing p {
+	line-height: 2;
+	font-size: 18px;
 }
 
 .landing button {
@@ -25,6 +29,7 @@
 	border-radius: 5px;
 	height: 45px;
 	width: 200px;
+	margin-top: 40px;
 }
 
 .landing button:hover {
@@ -46,6 +51,7 @@
 
 .fa-arrow-down:hover {
 	cursor: pointer;
+	color: var(--darkBlueMain) !important;
 }
 
 .bounce-1 {
