@@ -75,7 +75,7 @@ function DesignProjects(props) {
 
 	return (
 		<section className='design-work'>
-			<h2>Design Work</h2>
+			<h2>Design Work.</h2>
 			<div className='design-project pigment'>
 				<h3>Website Redesign</h3>
 				<p className='tech-list'>

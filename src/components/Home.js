@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import About from './About';
 import ContactMe from './ContactMe';
 import Projects from './Projects';
@@ -8,9 +8,11 @@ import { Element } from 'react-scroll';
 import NavBar from './NavBar/NavBar';
 
 function Home(props) {
+	const [open, setOpen] = useState(false);
+
 	return (
 		<div className='home'>
-			<NavBar />
+			<NavBar open={open} setOpen={setOpen} />
 			<Element id='landing'>
 				<Landing />
 			</Element>
@@ -18,7 +20,7 @@ function Home(props) {
 				<About />
 			</Element>
 			<Element id='work'>
-				<Projects />
+				<Projects setOpen={setOpen} />
 			</Element>
 			<DesignProjects />
 			<Element id='contact'>

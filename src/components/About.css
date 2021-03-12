@@ -46,11 +46,13 @@
 
 .about img {
 	width: 100%;
+	margin-bottom: 15px;
 }
 
-.about .top div p {
-	line-height: 2;
-	font-size: 18px;
+.top div p {
+	line-height: 1.7;
+	font-size: 16px;
+	text-align: center;
 }
 
 .line-break {
@@ -68,7 +70,25 @@
 	font-style: italic;
 }
 
+.edu h3,
+.edu p {
+	text-align: center;
+}
+
+.edu p:last-child {
+	margin-bottom: 5px;
+}
+
 @media only screen and (min-width: 600px) {
+	.edu h3,
+	.edu p {
+		text-align: left;
+	}
+
+	.edu p:last-child {
+		margin-bottom: 0px;
+	}
+
 	.skills {
 		margin: 0;
 		display: grid;
@@ -111,5 +131,9 @@
 
 	.skills .education li {
 		padding-bottom: 0px;
+	}
+
+	.about img {
+		margin-bottom: 0px;
 	}
 }

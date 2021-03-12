@@ -4,8 +4,8 @@ import HamburgerMenu from './HamburgerMenu';
 import logo from '../../images/logo.png';
 import './NavBar.css';
 
-function NavBar() {
-	const [open, setOpen] = useState(false);
+function NavBar({ open, setOpen }) {
+	// const [open, setOpen] = useState(false);
 	const [navbarClass, setNavbarClass] = useState('nav-bar');
 
 	return (

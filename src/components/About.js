@@ -8,7 +8,7 @@ function About(props) {
 			<div className='top'>
 				<img src={photo} alt='Tabitha Perry'></img>
 				<div>
-					<h2>About</h2>
+					<h2>About.</h2>
 
 					<p>
 						My education in design shapes how I approach coding and achieve the

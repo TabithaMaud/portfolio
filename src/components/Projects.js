@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import simon from '../images/simon.jpg';
 import goodEgg from '../images/good-egg.jpg';
 import movieCreds from '../images/movie-creds.jpg';
 import './Projects.css';
 import { Github } from 'react-bootstrap-icons';
 
-function Projects(props) {
+function Projects() {
 	return (
 		<section className='work'>
-			<h2>Developer Work</h2>
+			<h2>Developer Work.</h2>
 
 			<div className='project'>
 				<img
@@ -33,14 +33,12 @@ function Projects(props) {
 						target='_blank'
 						rel='noreferrer'>
 						live app
-						{/* <BoxArrowUpRight size={20} /> */}
 					</a>
 					<a
 						href='https://www.linkedin.com/pulse/my-first-react-app-movie-creds-tabitha-perry/'
 						target='_blank'
 						rel='noreferrer'>
 						read more
-						{/* <ThreeDots size={24}  /> */}
 					</a>
 				</div>
 				<p className='description'>
@@ -70,7 +68,6 @@ function Projects(props) {
 						target='_blank'
 						rel='noreferrer'>
 						read more
-						{/* <ThreeDots size={24} /> */}
 					</a>
 				</div>
 				<p className='description'>
@@ -95,7 +92,6 @@ function Projects(props) {
 						target='_blank'
 						rel='noreferrer'>
 						live app
-						{/* <BoxArrowUpRight size={20} /> */}
 					</a>
 				</div>
 				<p className='description'>
