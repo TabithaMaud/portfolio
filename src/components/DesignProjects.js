@@ -84,7 +84,7 @@ function DesignProjects(props) {
 				<Carousel interval={null}>
 					{pigments.map((image, index) => {
 						return (
-							<Carousel.Item>
+							<Carousel.Item key={index}>
 								<img className='d-block' src={image} alt={`${index} slide`} />
 							</Carousel.Item>
 						);
@@ -97,9 +97,9 @@ function DesignProjects(props) {
 					InVision / Sketch / Photoshop / Indesign / Illustrator
 				</p>
 				<Carousel interval={null}>
-					{activityTrackers.map((image) => {
+					{activityTrackers.map((image, index) => {
 						return (
-							<Carousel.Item>
+							<Carousel.Item key={index}>
 								<img className='d-block' src={image} alt='First slide' />
 							</Carousel.Item>
 						);
@@ -112,9 +112,9 @@ function DesignProjects(props) {
 					InVision / Sketch / Photoshop / Indesign / Illustrator
 				</p>
 				<Carousel interval={null}>
-					{pizzas.map((image) => {
+					{pizzas.map((image, index) => {
 						return (
-							<Carousel.Item>
+							<Carousel.Item key={index}>
 								<img className='d-block' src={image} alt='First slide' />
 							</Carousel.Item>
 						);
