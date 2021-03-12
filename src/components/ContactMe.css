@@ -12,6 +12,7 @@
 
 .contact-section p {
 	margin-bottom: 5px;
+	min-width: 330px;
 }
 
 .contact-section h2 {

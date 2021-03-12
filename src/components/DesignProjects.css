@@ -49,6 +49,23 @@
 	border: none;
 }
 
+.design-button {
+	border: 1px solid #141b4d;
+	border-radius: 5px;
+	padding: 10px 17px;
+	color: #141b4d;
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.design-button:hover {
+	background-color: #141b4d;
+	color: white;
+	text-decoration: none;
+}
+
 @media (min-width: 800px) {
 	.carousel-control-next-icon {
 		opacity: 1;

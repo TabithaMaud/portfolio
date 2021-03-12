@@ -11,10 +11,10 @@ function About(props) {
 					<h2>About.</h2>
 
 					<p>
-						My education in design shapes how I approach coding and achieve the
-						best functionality possible for the given task. I am a fullstack
-						software engineer with a strong passion for user focused software
-						engineering.
+						My education in design shapes how I approach coding and allows me to
+						achieve the best functionality possible for the given task. I am a
+						fullstack software engineer with a strong passion for user focused
+						software engineering.
 					</p>
 				</div>
 			</div>

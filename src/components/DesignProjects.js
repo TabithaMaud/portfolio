@@ -121,6 +121,12 @@ function DesignProjects(props) {
 					})}
 				</Carousel>
 			</div>
+			<a
+				className='design-button'
+				href='https://www.tabitha-perry.com'
+				target='_blank'>
+				Full Design Portfolio
+			</a>
 			<div className='line-break'></div>
 		</section>
 	);
