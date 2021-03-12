@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import simon from '../images/simon.jpg';
 import goodEgg from '../images/good-egg.jpg';
 import movieCreds from '../images/movie-creds.jpg';

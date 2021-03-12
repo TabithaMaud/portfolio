@@ -33,7 +33,7 @@ nav ul li:hover {
 .logo a img {
 	height: 40px;
 	cursor: pointer;
-	opacity: 90%;
+	opacity: 0.9;
 }
 
 .logo a {
