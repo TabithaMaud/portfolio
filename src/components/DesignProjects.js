@@ -123,7 +123,7 @@ function DesignProjects(props) {
 			</div>
 			<a
 				className='design-button'
-				href='https://www.tabitha-perry.com'
+				href='https://dandelion-trombone-bnf4.squarespace.com/'
 				target='_blank'>
 				Full Design Portfolio
 			</a>
