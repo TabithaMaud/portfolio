@@ -33,6 +33,7 @@ import pizza9 from '../images/design-images/pizzeria-luigi/pizza9.png';
 import pizza10 from '../images/design-images/pizzeria-luigi/pizza10.png';
 
 import './DesignProjects.css';
+import Fade from 'react-reveal/Fade';
 
 function DesignProjects(props) {
 	const pizzas = [
@@ -76,51 +77,57 @@ function DesignProjects(props) {
 	return (
 		<section className='design-work'>
 			<h2>Design Work.</h2>
-			<div className='design-project pigment'>
-				<h3>Website Redesign</h3>
-				<p className='tech-list'>
-					InVision / Sketch / Photoshop / Indesign / Illustrator
-				</p>
-				<Carousel interval={null}>
-					{pigments.map((image, index) => {
-						return (
-							<Carousel.Item key={index}>
-								<img className='d-block' src={image} alt={`${index} slide`} />
-							</Carousel.Item>
-						);
-					})}
-				</Carousel>
-			</div>
-			<div className='design-project activity-tracker'>
-				<h3>Activity Tracker</h3>
-				<p className='tech-list'>
-					InVision / Sketch / Photoshop / Indesign / Illustrator
-				</p>
-				<Carousel interval={null}>
-					{activityTrackers.map((image, index) => {
-						return (
-							<Carousel.Item key={index}>
-								<img className='d-block' src={image} alt='First slide' />
-							</Carousel.Item>
-						);
-					})}
-				</Carousel>
-			</div>
-			<div className='design-project pizza'>
-				<h3>Pizzeria Luigi</h3>
-				<p className='tech-list'>
-					InVision / Sketch / Photoshop / Indesign / Illustrator
-				</p>
-				<Carousel interval={null}>
-					{pizzas.map((image, index) => {
-						return (
-							<Carousel.Item key={index}>
-								<img className='d-block' src={image} alt='First slide' />
-							</Carousel.Item>
-						);
-					})}
-				</Carousel>
-			</div>
+			<Fade>
+				<div className='design-project pigment'>
+					<h3>Website Redesign</h3>
+					<p className='tech-list'>
+						InVision / Sketch / Photoshop / Indesign / Illustrator
+					</p>
+					<Carousel interval={null}>
+						{pigments.map((image, index) => {
+							return (
+								<Carousel.Item key={index}>
+									<img className='d-block' src={image} alt={`${index} slide`} />
+								</Carousel.Item>
+							);
+						})}
+					</Carousel>
+				</div>
+			</Fade>
+			<Fade>
+				<div className='design-project activity-tracker'>
+					<h3>Activity Tracker</h3>
+					<p className='tech-list'>
+						InVision / Sketch / Photoshop / Indesign / Illustrator
+					</p>
+					<Carousel interval={null}>
+						{activityTrackers.map((image, index) => {
+							return (
+								<Carousel.Item key={index}>
+									<img className='d-block' src={image} alt='First slide' />
+								</Carousel.Item>
+							);
+						})}
+					</Carousel>
+				</div>
+			</Fade>
+			<Fade>
+				<div className='design-project pizza'>
+					<h3>Pizzeria Luigi</h3>
+					<p className='tech-list'>
+						InVision / Sketch / Photoshop / Indesign / Illustrator
+					</p>
+					<Carousel interval={null}>
+						{pizzas.map((image, index) => {
+							return (
+								<Carousel.Item key={index}>
+									<img className='d-block' src={image} alt='First slide' />
+								</Carousel.Item>
+							);
+						})}
+					</Carousel>
+				</div>
+			</Fade>
 			<a
 				className='design-button'
 				href='https://dandelion-trombone-bnf4.squarespace.com/'

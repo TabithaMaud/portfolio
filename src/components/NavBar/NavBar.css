@@ -114,6 +114,7 @@ nav ul li:hover {
 	.nav-bar ul {
 		flex-flow: column nowrap;
 		position: fixed;
+		display: none;
 		top: 0;
 		right: 0;
 		height: 100vh;
@@ -123,6 +124,7 @@ nav ul li:hover {
 	}
 
 	.nav-bar-open ul {
+		display: flex;
 		flex-flow: column nowrap;
 		background: white;
 		position: fixed;
@@ -135,6 +137,7 @@ nav ul li:hover {
 		transition: transform 0.3s ease-in-out;
 		font-size: 18px;
 		border-left: 1px solid black;
+		border-bottom: 1px solid black;
 	}
 	.nav-bar-open ul li {
 		margin: 40px 0;

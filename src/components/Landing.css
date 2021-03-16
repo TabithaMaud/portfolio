@@ -83,4 +83,13 @@
 		max-width: 560px;
 		margin: 0 auto;
 	}
+
+	.landing div {
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.landing div:last-child {
+		justify-content: center;
+	}
 }
